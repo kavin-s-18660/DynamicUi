@@ -1,0 +1,56 @@
+{
+  "layout": {
+    "type": "Column",
+    "children": [
+      {
+        "type": "Row",
+        "children": [
+          { "type": "Icon", "icon": "menu" },
+          { "type": "DropdownText", "text": "Invoice", "icon": "arrow_drop_down" },
+          { "type": "Spacer" },
+          { "type": "Icon", "icon": "search" },
+          { "type": "Icon", "icon": "filter_alt" },
+          { "type": "Icon", "icon": "grid_view" },
+          { "type": "Icon", "icon": "refresh" }
+        ]
+      },
+      {
+        "type": "Row",
+        "children": [
+          {
+            "type": "TabBar",
+            "tabs": [
+              { "label": "All Items", "selected": true },
+              { "label": "Wall Accents" },
+              { "label": "Table Decor" },
+              { "label": "Lamps & Lighting" }
+            ],
+            "onTabSelected": "FilterProductsByTabUseCase"
+          }
+        ]
+      },
+      {
+        "type": "Column",
+        "children": [
+          {
+            "type": "ListView",
+            "items": "products",
+            "onItemClick": "AddProductToCartUseCase"
+          }
+        ]
+      },
+      {
+        "type": "Row",
+        "children": [
+          {
+            "type": "Button",
+            "text": "Go to Cart",
+            "style": "primary",
+            "fullWidth": true,
+            "onClick": "NavigateToCartUseCase"
+          }
+        ]
+      }
+    ]
+  }
+}

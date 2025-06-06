@@ -1,0 +1,19 @@
+{
+  "products": [
+    { "id": 1, "title": "Analog Table Clock", "price": 700, "imageUrl": "https://example.com/images/analog_table_clock.jpg", "category": "All Items" },
+    { "id": 2, "title": "Analog Wall Clock", "price": 1859, "imageUrl": "https://example.com/images/analog_wall_clock.jpg", "category": "Wall Accents" },
+    { "id": 3, "title": "Artificial Decor Plant", "price": 1419, "imageUrl": "https://example.com/images/artificial_decor_plant.jpg", "category": "Table Decor" },
+    { "id": 4, "title": "Bamboo Plant", "price": 575, "imageUrl": "https://example.com/images/bamboo_plant.jpg", "category": "Table Decor" },
+    { "id": 5, "title": "Bedside Table Lamp", "price": 999, "imageUrl": "https://example.com/images/bedside_table_lamp.jpg", "category": "Lamps & Lighting" },
+    { "id": 6, "title": "Blue Wrought Iron Human Figurine", "price": 1900, "imageUrl": "https://example.com/images/blue_wrought_iron_figurine.jpg", "category": "Wall Accents" },
+    { "id": 7, "title": "Bonsai Plant", "price": 396, "imageUrl": "https://example.com/images/bonsai_plant.jpg", "category": "Table Decor" },
+    { "id": 8, "title": "Buddha Art Panels", "price": 700, "imageUrl": "https://example.com/images/buddha_art_panels.jpg", "category": "Wall Accents" },
+    { "id": 9, "title": "Cane Tray", "price": 700, "imageUrl": "https://example.com/images/cane_tray.jpg", "category": "Table Decor" }
+  ],
+  "tabs": [
+    { "id": "all", "label": "All Items" },
+    { "id": "wall_accents", "label": "Wall Accents" },
+    { "id": "table_decor", "label": "Table Decor" },
+    { "id": "lamps_lighting", "label": "Lamps & Lighting" }
+  ]
+}

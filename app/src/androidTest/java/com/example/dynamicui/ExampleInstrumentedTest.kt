@@ -1,4 +1,4 @@
-package com.example.dynamicui
+package com.example.dynamicui.com.example.dynamicui
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.example.dynamicui
+package com.example.dynamicui.com.example.dynamicui
 
 import org.junit.Test
 

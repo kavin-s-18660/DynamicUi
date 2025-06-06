@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.compose.compiler)
+    kotlin("plugin.serialization") version "1.9.0"
 }
 
 android {
@@ -54,4 +55,9 @@ dependencies {
     implementation("com.squareup.moshi:moshi:1.15.1")
     implementation("com.squareup.moshi:moshi-kotlin:1.15.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+//    implementation "androidx.compose.material3:material3:1.0.0"
+//    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1"
+//    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1"
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
+    implementation("io.coil-kt:coil-compose:2.2.2")
 }
