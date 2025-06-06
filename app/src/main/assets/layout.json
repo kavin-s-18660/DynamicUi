@@ -1,0 +1,14 @@
+{
+    "layout_id": 5,
+    "layout_name": "Touch and Category Tile",
+    "number_of_columns": 2,
+    "components": [
+        { "section_id": 5, "element": "ItemSearchBar", "style": "" },
+        { "section_id": 1, "element": "CartItemsGrid", "style": "" },
+        { "section_id": 2, "element": "SalesCustomizationButtons", "style": "ButtonStyle" },
+        { "section_id": 3, "element": "PaymentExpressGrid", "style": "" },
+        { "section_id": 4, "element": "CategoryProductsGrid", "style": "TileStyle" },
+        { "section_id": 0, "element": "TotalViewGrid", "style": "" }
+    ],
+    "column_definitions": [ "1*", "2*" ]
+}
